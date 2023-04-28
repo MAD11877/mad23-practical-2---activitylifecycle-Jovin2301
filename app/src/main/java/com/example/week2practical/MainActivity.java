@@ -82,13 +82,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) { //effecting what it would do after u click on the button
                 Log.v(Title, "Follow button is pressed");
-                if (myUser.isFollowed() == false){
-                    myButton.setText("FOLLOW");
-                    myUser.setFollowed(true);
-                }
-                else {
+                if (myUser.isFollowed() == true){
                     myButton.setText("UNFOLLOW");
                     myUser.setFollowed(false);
+                }
+                else {
+                    myButton.setText("FOLLOW");
+                    myUser.setFollowed(true);
                 }
             }
         });
