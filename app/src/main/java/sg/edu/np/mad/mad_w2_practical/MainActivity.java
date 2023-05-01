@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.week2practical.R;
+import sg.edu.np.mad.madpractical.R;
 
 
 public class MainActivity extends AppCompatActivity {
